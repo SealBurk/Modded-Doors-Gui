@@ -4053,6 +4053,15 @@ GuiTab:CreateLabel("Hmmmmmmmmmmmmmmmm")
 --┃┃┃┃┃┣┫┃┓┫┃┃┣┃┃┫┃┃┃┗┓┃
 --┗━┻━┻┛┗┻┻┻┻━┻━━┻┻━┻━━┛  rbxassetid://11542571674
 
+OtherTab:CreateButton({
+	Name = "Improved Crucifix",
+	Callback = function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/Johnny39871/assets/main/crucifixo'))()
+    end,
+})
+CustomTab:CreateLabel("Test test bitch")
+
+
 CustomTab:CreateParagraph({Title = "NOTICE", Content = "Some Entity's doesn't spawn since some are broken, they will be fixed"})
 CustomTab:CreateButton({
 	Name = "Spawn Rampage",
