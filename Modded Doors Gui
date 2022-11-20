@@ -734,6 +734,14 @@ end
 })
 GuiTab:CreateLabel("Spam H to skip rooms (be careful with rush)")
 
+GuiTab:CreateButton({
+	Name = "Somebody's Gui",
+	Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/6kfed0tP"))()
+    
+    end,
+})
+GuiTab:CreateLabel("Hmmmmmm")
 
 GuiTab:CreateButton({
 	Name = "Spawn Seek Anywhere",
